@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://wallpaperaccess.com/full/1154551.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.85);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-container:hover {
+    transform: scale(1.02);
+  }
+  
+  input, select {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
