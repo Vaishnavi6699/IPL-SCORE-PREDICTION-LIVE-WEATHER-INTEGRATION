@@ -44,7 +44,36 @@ Axios	JSON	Pandas	Heroku-ready
 
 📁 Project Structure
 
-<pre> IPL-SCORE-PREDICTION-LIVE-WEATHER-INTEGRATION/ │ ├── backend/ │ ├── model/ │ │ └── ipl_score_predictor.h5 # Trained NN model │ ├── app.py # Flask server │ ├── weather.py # Fetches live weather data │ ├── predict.py # Model loading & prediction │ └── requirements.txt # Backend dependencies │ ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ │ ├── PredictionForm.js # Form for match input │ │ │ └── ResultDisplay.js # Output score prediction │ │ ├── App.js │ │ └── index.js │ ├── package.json │ └── .env # API keys and configs │ ├── dataset/ │ ├── IPL_Matches_Data.csv # Cleaned IPL dataset │ └── Weather_Data.csv # Weather info mapped to matches │ ├── model_training/ │ └── train_model.ipynb # Notebook to train neural net │ ├── README.md └── LICENSE </pre>
+IPL-SCORE-PREDICTION-LIVE-WEATHER-INTEGRATION/
+│
+├── backend/
+│   ├── model/
+│   │   └── ipl_score_predictor.h5       # Trained NN model
+│   ├── app.py                           # Flask server
+│   ├── weather.py                       # Fetches live weather data
+│   ├── predict.py                       # Model loading & prediction
+│   └── requirements.txt                 # Backend dependencies
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── PredictionForm.js        # Form for match input
+│   │   │   └── ResultDisplay.js         # Output score prediction
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── .env                             # API keys and configs
+│
+├── dataset/
+│   ├── IPL_Matches_Data.csv             # Cleaned IPL dataset
+│   └── Weather_Data.csv                 # Weather info mapped to matches
+│
+├── model_training/
+│   └── train_model.ipynb                # Notebook to train neural net
+│
+├── README.md
+
 
 🔄 Workflow
 
