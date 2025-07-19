@@ -21,28 +21,28 @@ Live weather conditions (temperature, humidity, etc.)
 
 It uses a Neural Network (3–4 hidden layers) model trained on historical IPL datasets and weather data to generate predictions in real-time via a beautiful web interface.
 
-🧠 Features
+ FEATURES
 
-📈 Predicts team score dynamically based on inputs
+ Predicts team score dynamically based on inputs
 
-☁️ Uses live weather data API (OpenWeatherMap)
+ Uses live weather data API (OpenWeatherMap)
 
-⚡ Real-time predictions with interactive UI
+ Real-time predictions with interactive UI
 
-🧠 Neural Network-based regression model
+ Neural Network-based regression model
 
-🎨 Stylish frontend with React and Bootstrap
+ Stylish frontend with React and Bootstrap
 
-🌐 Integrated Flask API for prediction backend
+ Integrated Flask API for prediction backend
 
-🧰 Tech Stack
+ TECH STACK
 
 Frontend	Backend	ML Model	Others
 React.js	Flask	Keras (TensorFlow)	OpenWeatherMap API
 HTML/CSS/Bootstrap	REST API	Scikit-learn	VS Code
 Axios	JSON	Pandas	Heroku-ready
 
-📁 Project Structure
+PROJECT STRUCTURE
 
 ### 📁 Project Structure
 
@@ -80,19 +80,7 @@ IPL-SCORE-PREDICTION-LIVE-WEATHER-INTEGRATION/
 
 
 
-🔄 Workflow
-
-User inputs match data through frontend.
-
-Weather API fetches live weather based on stadium/city.
-
-Frontend sends data to Flask backend.
-
-Neural Network model predicts the final score.
-
-Prediction is returned and displayed in real-time.
-
-📊 Model Details
+MODEL DETAILS
 
 Input Features:
 
@@ -110,7 +98,7 @@ Optimizer: Adam
 
 Accuracy: ~90% on validation set
 
-🚀 How to Run
+EXECUTION STEPS
 1. Backend (Flask)
 bash
 Copy
@@ -127,13 +115,12 @@ npm install
 npm start
 Make sure the backend is running on localhost:5000 and frontend on localhost:3000.
 
+FUTURE SCOPE
 
-🛠️ Future Improvements
+ Stadium-based historical pitch analysis
 
-🏟️ Stadium-based historical pitch analysis
+ Deploy as mobile app using React Native
 
-📲 Deploy as mobile app using React Native
+ Compare other ML models (Random Forest, XGBoost)
 
-🤖 Compare other ML models (Random Forest, XGBoost)
-
-🌍 Add map-based team selection & location detection
+ Add map-based team selection & location detection
