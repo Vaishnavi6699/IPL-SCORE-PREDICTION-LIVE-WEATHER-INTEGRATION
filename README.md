@@ -44,6 +44,9 @@ Axios	JSON	Pandas	Heroku-ready
 
 📁 Project Structure
 
+### 📁 Project Structure
+
+```bash
 IPL-SCORE-PREDICTION-LIVE-WEATHER-INTEGRATION/
 │
 ├── backend/
@@ -73,6 +76,8 @@ IPL-SCORE-PREDICTION-LIVE-WEATHER-INTEGRATION/
 │   └── train_model.ipynb                # Notebook to train neural net
 │
 ├── README.md
+```
+
 
 
 🔄 Workflow
